@@ -5,8 +5,8 @@
 #include "Person.h"
 
 Person::Person(){
-    this->name = "";
-    this->documentId = "";
+    this->name = " ";
+    this->id = " ";
 }
 
 Person::Person(const string& name, string& id){
@@ -34,7 +34,7 @@ void Person::setId(string& id){
 string Person::toString()const{
     stringstream s;
         s << name << " \n ";
-        s << " Id: " << documentId << endl;
+        s << " Id: " << id << endl;
     return s.str();
 }
 
