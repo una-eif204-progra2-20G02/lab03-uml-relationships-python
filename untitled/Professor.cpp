@@ -14,7 +14,7 @@ Professor::Professor(double salary) {
 }
 
 Professor::Professor(const string& name, string& id, double ) : Person (name, id){
-    this-salary = salary;
+    this->salary = salary;
 }
 
 double Professor::getSalary(){
@@ -27,7 +27,7 @@ void Professor::setSalary(double salary){
 
 string Professor::toString() const{
     stringstream s;
-    s << "Professor :\n" << Person::toString() << "Monthly Salary: " << getSalary() << endl;
+    s << "Professor :\n" << Person::toString() << "Salary: " << getSalary() << endl;
     return s.str();
 }
 
