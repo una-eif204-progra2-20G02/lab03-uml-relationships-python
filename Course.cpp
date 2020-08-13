@@ -5,13 +5,13 @@
 #include "Course.h"
 
 Course::Course(){
-    this->ncr = "";
+    this->nrc = "";
 }
-Course::Course(string nrc){
-    this->ncr =nrc;
+Course::Course(const string& nrc){
+    this->nrc =nrc;
 }
 
-void Course::setNrc(string nrc) {
+void Course::setNrc(string& nrc) {
     this->nrc = nrc;
 }
 
