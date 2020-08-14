@@ -18,7 +18,7 @@ public:
     Student(string& name, string& id, string carnet);
     void setCarnet(string carnet);
     string getCarnet();
-    string toString();
+    string toString() override;
 
 };
 

@@ -31,7 +31,7 @@ void Person::setId(string& id){
 }
 
 
-string Person::toString()const{
+string Person::toString() {
     stringstream s;
         s << name << " \n ";
         s << " Id: " << id << endl;

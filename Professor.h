@@ -2,8 +2,8 @@
 // Created by mafef on 11/08/2020.
 //
 
-#ifndef UNTITLED_PROFESSOR_H
-#define UNTITLED_PROFESSOR_H
+#ifndef BASIC_00_EXAMPLE_PROFESSOR_H
+#define BASIC_00_EXAMPLE_PROFESSOR_H
 
 #include "Person.h"
 
@@ -22,11 +22,11 @@ public:
     double getSalary();
     void setSalary(double);
 
-    string toString() const override;
+    string toString() override;
 
     virtual ~Professor();
 
 };
 
 
-#endif //UNTITLED_PROFESSOR_H
+#endif //BASIC_00_EXAMPLE_PROFESSOR_H

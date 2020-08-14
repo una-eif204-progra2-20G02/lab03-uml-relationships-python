@@ -20,7 +20,7 @@ string Student::getCarnet() {
     return carnet;
 }
 
-string Student::toString() {
+string Student::toString()  {
     stringstream s;
     s << Person::toString();
     s << "Carnet: " << carnet << endl;

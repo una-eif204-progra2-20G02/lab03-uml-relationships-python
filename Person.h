@@ -2,8 +2,8 @@
 // Created by mafef on 11/08/2020.
 //
 
-#ifndef UNTITLED_PERSON_H
-#define UNTITLED_PERSON_H
+#ifndef BASIC_00_EXAMPLE_PERSON_H
+#define BASIC_00_EXAMPLE_PERSON_H
 
 #include <iostream>
 #include <string>
@@ -28,11 +28,11 @@ public:
     void setName(string& name);
     string getId();
     void setId(string& id);
-    virtual string toString() const;
+    virtual string toString();
 
     virtual ~Person();
 
 };
 
 
-#endif //UNTITLED_PERSON_H
+#endif //BASIC_00_EXAMPLE_PERSON_H
