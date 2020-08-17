@@ -30,9 +30,9 @@ public:
     void addProfessor(Professor professor);
     void addStudent(Student student);
     void addCourse(Course course);
-    vector<Student> getStudentList();
-    vector<Professor> getProfessorList();
-    vector<Course> getCourseList();
+    string getStudentList();
+    string getProfessorList();
+    string getCourseList();
 
 };
 #endif //LAB03_UML_RELATIONSHIPS_PYTHON_UNIVERSITY_H
