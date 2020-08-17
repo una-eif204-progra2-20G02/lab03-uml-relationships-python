@@ -66,3 +66,14 @@ string University::getCourseList() {
     return s.str();
 }
 
+
+void University::addProfessor(Professor professor){
+    professorList.push_back(professor);
+}
+void University::addStudent(Student student){
+    studentList.push_back(student);
+}
+void University::addCourse(Course course){
+    courseList.push_back(course);
+
+}
