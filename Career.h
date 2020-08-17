@@ -41,10 +41,14 @@ public:
     void setProfessor(Professor &professor);
 
     void addCourse(Course);
-    void getListCourse();
+    string getListCourse();
 
     void addProfessor(Professor);
-    void getListProfessor();
+    string getListProfessor();
+    
+    string toString();
+
+    ~ Career();
 
 };
 
